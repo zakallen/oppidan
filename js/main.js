@@ -9,7 +9,7 @@ $(document).ready(function() {
     content = $('#main').smoothState({
       // Runs when a link has been activated
       onStart: {
-        duration: 10000, // Duration of our animation
+        duration: 1000, // Duration of our animation
         render: function (url, $container) {
           // toggleAnimationClass() is a public method
           // for restarting css animations with a class

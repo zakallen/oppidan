@@ -176,8 +176,8 @@ body {
  * Don't forget to add vendor prefixes!
  */
 .m-scene #big-video-wrap, .m-scene .element-fade {
-  -webkit-animation-duration: 3s;
-          animation-duration: 3s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
   transition-timing-function: ease-in;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
