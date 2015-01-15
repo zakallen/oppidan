@@ -1,0 +1,106 @@
+.backgif {
+  background: none; 
+}
+.spirits {
+  background: url('../assets/Oppidan_Bridges123.jpg') no-repeat center center fixed; 
+}
+.bespoke-bg {
+  background: url('../assets/bespoke.jpg'); 
+}
+.bridge-bg {
+  background: url('../assets/Oppidan_Bridges135.jpg'); 
+}
+.guy-bg {
+  background: url('../assets/Justin_Oppidan2_web.jpg'); 
+}
+.media-bg {
+  background-repeat:no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.background-image {
+  
+  z-index: 1;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  
+  opacity: 1;
+  
+  transition: all 1s;
+  -webkit-transition: all 1s;
+}
+
+.background-image.visible {
+  opacity: 1;
+}
+
+.javascript {
+  position: absolute;
+  top: 100px;
+  right: 0;
+  left: 0;
+  text-align: center;
+  height: 100px;
+  overflow: auto;
+  margin: auto;
+  z-index: 100;
+}
+
+
+.fitz-bg {
+  background: url('../assets/mrfitz_image.jpg'); 
+}
+.flyboy-bg {
+  background: url('../assets/flyboy_image.jpg'); 
+}
+.lime-bg {
+  background: url('../assets/gardener_image.jpg'); 
+}
+.soph-bg {
+  background: url('../assets/sophisticate_image.jpg'); 
+}
+.mort-bg {
+  background: url('../assets/mortician_image.jpg'); 
+}
+.baller-bg {
+  background: url('../assets/baller_image.jpg'); 
+}
+.novelist-bg {
+  background: url('../assets/novelist_image.jpg'); 
+}
+.roam-bg {
+  background: url('../assets/roamer_image.jpg'); 
+}
+.wig-bg {
+  background: url('../assets/bigwig_image.jpg'); 
+}
+.arch-bg {
+  background: url('../assets/architect_image.jpg'); 
+}
+.curator-bg {
+  background: url('../assets/curator_image.jpg'); 
+}
+.solo-bg {
+  background: url('../assets/soloist_image.jpg'); 
+}
+
+.recipe-bg {
+  background-repeat:no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

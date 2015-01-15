@@ -1,0 +1,18 @@
+@font-face {
+    font-family: verlag;
+    src: url('../fonts/Verlag-Book.otf');
+}
+@font-face {
+    font-family: verlag;
+    src: url('../fonts/Verlag-Bold.otf');
+    font-weight: bold;
+}
+@font-face {
+    font-family: verlag-bold;
+    src: url('../fonts/Verlag-Black.otf');
+}
+@font-face {
+    font-family: verlag;
+    src: url('../fonts/Verlag-Light.otf');
+    font-weight: lighter;
+}
