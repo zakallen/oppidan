@@ -54,10 +54,12 @@ body {
   vertical-align: top;
 }
 .cover-container {
-  margin-right: auto;
-  margin-left: auto;
+  margin-top: -200px;
+  margin-left: -350px;
   z-index: 3;
-  position: relative;
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
 
 /* Padding for spacing */
@@ -816,6 +818,14 @@ Content
 /*
  * Affix and center
  */
+@media (max-width: 768px) {
+  .cover-container {
+    top: 100px;
+    left: 0;
+    margin-left: auto;
+    margin-top: auto;
+  }
+}
 
 @media (min-width: 768px) {
   /* Pull out the header and footer */
