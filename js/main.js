@@ -5,7 +5,8 @@ $(document).ready(function() {
   
   $('.javascript').hide();
 
-  $('#main').smoothState({prefetch: true});
+  // var $body = $('html, body'),
+  //   content = $('#main').smoothState({
   //     // Runs when a link has been activated
       
   //     prefetch: true,
