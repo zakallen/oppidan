@@ -5,14 +5,14 @@ $(document).ready(function() {
   
   $('.javascript').hide();
 
-  var $body = $('html, body'),
-    content = $('#main').smoothState({
-      // Runs when a link has been activated
+  // var $body = $('html, body'),
+  //   content = $('#main').smoothState({
+  //     // Runs when a link has been activated
       
-      prefetch: true,
-      development: true,
-      blacklist: ".sub"
-    }).data('smoothState');
+  //     prefetch: true,
+  //     development: true,
+  //     blacklist: ".sub"
+  //   }).data('smoothState');
   
   $('.car-option').css("margin-top", $(window).height()-100);
   
