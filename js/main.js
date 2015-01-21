@@ -20,7 +20,7 @@ $(document).ready(function() {
           });
         }
       },
-      prefetch: false
+      prefetch: true
     }).data('smoothState');
   
   $('.car-option').css("margin-top", $(window).height()-100);
