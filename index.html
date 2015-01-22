@@ -44,7 +44,7 @@
               </div>
             </div>
 
-            <div class="inner cover element-fade">
+            <div class="inner cover">
               <h1 class="cover-heading">Please verify that you are 21+ years of age to enter this site</h1>
               <a href="home/index.html" class="lead">Yes, I am at least 21</a><br>
               <span class="lead no">No, I am not</span>
@@ -69,14 +69,14 @@
     <script src="js/jquery-1.11.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/move.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/rec-carousel.js"></script>
-    <script src="js/jquery.smoothState.js"></script>    
-    <script src="js/prod-carousel.js"></script>
     <script src="js/video.js"></script>
     <script src="js/bigvideo.js"></script>
     <script>
       $('.javascript').hide();
+
+      setTimeout(function(){
+        $('.cover').css("opacity", 1);
+      }, 2000);
       
       if(!(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))) {
         $(function() {

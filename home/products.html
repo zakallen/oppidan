@@ -164,24 +164,8 @@
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/owl.carousel.min.js"></script>
     <script src="../js/move.min.js"></script>
+    <script src="../js/main.js"></script>
     <script src="../js/prod-carousel.js"></script>
-    <script>
-      setTimeout(function(){
-        $('.content-div').addClass("animate");
-      }, 2000);
-      $('.car-option').css("margin-top", $(window).height()-100);
-      
-      $( window ).resize(function() {
-        $('.car-option').css("margin-top", $(window).height()-100);
-      });
-
-      $('.hamburger').click(function(e) {
-        if (menuToggle)
-          $('.menu').removeClass("animate");
-        else
-          $('.menu').addClass("animate");
-        menuToggle = !menuToggle;
-      });
-    </script>
+  
   </body>
 </html>

@@ -4,15 +4,6 @@ var contentToggle = true;
 $(document).ready(function() {
   
   $('.javascript').hide();
-
-  // var $body = $('html, body'),
-  //   content = $('#main').smoothState({
-  //     // Runs when a link has been activated
-      
-  //     prefetch: true,
-  //     development: true,
-  //     blacklist: ".sub"
-  //   }).data('smoothState');
   
   $('.car-option').css("margin-top", $(window).height()-100);
   
@@ -27,6 +18,10 @@ $(document).ready(function() {
       $('.menu').addClass("animate");
     menuToggle = !menuToggle;
   });
+
+  $('.close').click(function() {
+    history.back();
+  });
   
   $(".mockup img").hover(function() {
     $(this).siblings("span").css("opacity", 1);
@@ -40,10 +35,23 @@ $(document).ready(function() {
     $(this).children(".media-detail").css("opacity", 0);
     $(this).children(".overlay").css("opacity", 0);
   });
+  if(!(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))) {
+    setTimeout(function(){
+      $('.content-div').addClass("animate");
+    }, 2000);
+    $('.car-option').css("margin-top", $(window).height()-100);
   
-  setTimeout(function(){
-    $('.content-div').addClass("animate");
-  }, 2000);
+    $( window ).resize(function() {
+      $('.car-option').css("margin-top", $(window).height()-100);
+    });
+  }else{
+    $('.car-option').css("margin-top", $(window).height()-150);  
+    $('.recipe-arrow').click(function(){
+      $('html, body').animate({
+        scrollTop: ($(".recipe-div").offset().top - 80)
+      }, 2000);
+    });
+  }
   $('.arrow-school').click(function(e){
     $('.arrow-school').css("transform", (contentToggle) ? "rotate(90deg)" : "rotate(-90deg)");
     $('.school-div').css("transform", (contentToggle) ? "translate(0, " + $(window).height() + "px)" : "translate(0, 0)")
