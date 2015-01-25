@@ -8,12 +8,11 @@
     <meta name="author" content="">
     <link rel="icon" href="../assets/o-favicon.ico">
 
-    <title>Oppidan Spirits | New American School</title>
+    <title>Oppidan Spirits | Industry</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
-    
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
 
     <!-- Custom styles for this template -->
     <link href="../css/fonts.css" rel="stylesheet">
@@ -56,7 +55,7 @@
                 <li><a href="spirits.html">Our Spirits</a></li>
                 <li class="sub"><a href="products.html"> - American Botanical Gin</a></li>
                 <li class="sub"><a href="products.html#whiskey"> - Malted Rye Whiskey</a></li>
-                <li class="selected"><a href="school.html">About</a></li>
+                <li><a href="school.html">About</a></li>
                 <li><a href="philosophy.html">Philosophy</a></li>
                 <li><a href="recipes.html">Cocktail Recipes</a></li>
                 <li><a href="stockists.html">Stockists</a></li>
@@ -67,12 +66,12 @@
           </div>
         </div>
           
-        <div class="menu element-fade">
+        <div class="menu">
           <ul>
             <li><a href="spirits.html">Our Spirits</a></li>
             <li class="sub"><a href="products.html">American Botanical Gin</a></li>
             <li class="sub"><a href="products.html#whiskey">Malted Rye Whiskey</a></li>
-            <li class="selected"><a href="school.html">About</a></li>
+            <li><a href="school.html">About</a></li>
             <li><a href="philosophy.html">Philosophy</a></li>
             <li><a href="recipes.html">Cocktail Recipes</a></li>
             <li><a href="stockists.html">Stockists</a></li>
@@ -85,31 +84,18 @@
             <a href="https://twitter.com/oppidanspirits" target="_blank"><img src="../assets/twitter_white.png"/></a>
           </div>
         </div>
-        
-        <div class="school-div element-fade">
-          <div class="about-detail">
-            <h1>New American School of Distilling</h1>
-            <br><p>Welcome to Oppidan Spirits.<br><br>
-            Distillation is an age-old process that may have
-  begun as early as 2000 BC and continues
-  to evolve. Innovations that redefined American 
-  industry have also brought about advances in the 
-  distilling process, allowing those devoted to the craft 
-  to adapt, develop, and refine new palettes.
-  <br><br>
-            Our American Botanical Gin and Malted Rye Whiskey 
-  pay respect to one of the world’s oldest crafts while 
-  taking a distinctively modern perspective. Their unique
-  personalities can be enjoyed alone or provide the 
-  foundation for inspired cocktails.
-  <br><br>
-            Handcrafted in Wheeling, IL  U.S.A.
-            </p>
+
+        <div class="container-fluid stock-div">
+          <div class="row">
+            <div class="col-md-12 industry-links">
+              <center>
+                <h1><a href="../files/OppidanGin_SellSheet.pdf">Oppidan Gin Sell Sheet</a></h1><br>
+                <h1><a href="../files/OppidanMaltedRye_SellSheet.pdf">Oppidan Malted Rye Whiskey Sell Sheet</a></h1><br>
+                <h1><a href="../files/Oppidan_Logo.zip">ZIP of logo files</a></h1><br>
+                <h1><a href="../files/Oppidan_Bottles.zip">ZIP of bottle images</a></h1><br>
+              </center>
+            </div>
           </div>
-        </div>
-        
-        <div class="arrow-school down">
-          <img src="../assets/arrow-left.svg"/>
         </div>
         
         <div class="mastfoot">
@@ -124,31 +110,15 @@
       </div>
 
     </div>
-
+    
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="../js/jquery-1.11.1.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/move.min.js"></script>
-    <script src="../js/jquery.smoothState.js"></script>
     <script src="../js/main.js"></script>
     <script src="../js/video.js"></script>
     <script src="../js/bigvideo.js"></script>
-    <script>
-      if(!(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))) {
-        $(function() {
-          var BV = new $.BigVideo({useFlashForFirefox:false, container: $('.background-image')});
-          BV.init();
-          BV.show([
-              { type: "video/ogv",  src: "../assets/5-About_bg.ogv" },
-              { type: "video/mp4",  src: "../assets/5-About_bg.mp4" },
-              { type: "video/webm", src: "../assets/5-About_bg.webm" }
-          ], {ambient: true});
-        });
-      } else {
-        $('.backgif').css("background", "url('../assets/5-About_bg.gif') no-repeat 30% -20% fixed");
-      }
-    </script>
   </body>
 </html>
