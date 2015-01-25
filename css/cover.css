@@ -43,6 +43,7 @@ a:hover {
 .industry-links h1 a{
   color: #000;
   text-shadow: none;
+  font-size: 20px;
 }
 /*
  * Base structure
@@ -193,6 +194,10 @@ body {
  .cover {
    margin-top: 80px;
    width: 100%;
+ }
+ .cover h1{
+   font-size: 20px !important;
+   line-height: 40px !important;
  } 
 }
 .no {

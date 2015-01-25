@@ -1,5 +1,9 @@
 .backgif {
   background: none; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .spirits {
   background: url('../assets/Oppidan_Bridges123.jpg') no-repeat center center fixed; 
